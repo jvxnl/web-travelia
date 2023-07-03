@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelia - Explora el mundo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="styles.js"></script>
+  <script src="animations.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Travelia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinos</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Tours</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="animate__fadeInDownBig">Travelia</h1>
+    <p class="text-center">Tu guía de viajes personalizada</p>
+  </header>
+
+  <script>
+    $('.carousel').carousel();
+  </script>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="width: 100%; height: 350px;" data-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="images/header1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/destino2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/header3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+<script>
+  $('.carousel').carousel();
+</script>
+
+  <section id="destacados" class="container">
+    <h2 class="text-center">Destinos destacados</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="destino">
+          <img src="images/destino1.png" alt="Destino 1">
+          <h3>Tokio, Japón</h3>
+          <p>Tokio, la capital de Japón, es una metrópolis moderna y dinámica que combina la tradición con la innovación. Esta ciudad bulliciosa ofrece una experiencia única con su animada vida urbana, sus rascacielos futuristas, su deliciosa comida callejera y su cultura única. Algunos lugares destacados incluyen el famoso cruce de Shibuya, el Templo Senso-ji en Asakusa y el mercado de pescado de Tsukiji. Los amantes de la tecnología también pueden disfrutar de la experiencia en los distritos de Akihabara y Odaiba.</p>
+          <div class="d-flex justify-content-center">
+            <a href="login.html" class="btn btn-primary">Ver más</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="destino">
+          <img src="images/destino2.png" alt="Destino 2">
+          <h3>Roma, Italia</h3>
+          <p>Roma, la "Ciudad Eterna", es conocida por su impresionante patrimonio histórico y arquitectónico. Esta ciudad italiana alberga maravillas como el Coliseo, el Foro Romano y el Vaticano, que incluye la Basílica de San Pedro y la Capilla Sixtina. Pasear por las calles empedradas de Roma es como viajar en el tiempo, y podrás disfrutar de la deliciosa comida italiana y sumergirte en su encantadora atmósfera.</p>
+          <div class="d-flex justify-content-center">
+            <a href="login.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="destino">
+          <img src="images/destino3.png" alt="Destino 3">
+          <h3>Sydney, Australia</h3>
+          <p>Sydney es una vibrante ciudad costera que combina hermosas playas, una icónica Ópera, impresionantes parques y una emocionante vida urbana. Algunos lugares destacados incluyen la Ópera de Sídney, el Puente del Puerto de Sídney y la famosa playa de Bondi. Los visitantes también pueden explorar el animado barrio de The Rocks, disfrutar de la escena culinaria multicultural y realizar paseos en barco por el puerto para disfrutar de las vistas panorámicas.</p>
+          <div class="d-flex justify-content-center">
+            <a href="login.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white">
+    <p class="text-center">&copy; 2023 Travelia. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
